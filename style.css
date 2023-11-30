@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+
+body{
+    background-color:rgb(117, 117, 117);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    font-family: 'ubuntu',sans-serif;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height:70px;
+    background-color:black;
+    color:white;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{
+    width:65px;
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    font-weight:bolder;
+    font-size:1.3rem;
+}
+.container{
+    min-height:70vh;
+    background:black;
+    color:white;
+    display:flex;
+    margin:23px auto;
+    width:70%;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url(GMB.jpg);
+
+}
+
+.bottom {
+    position:sticky;
+    height:130px;
+    background-color:black;
+    background-color: white;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+#myprogressBar{
+    cursor:pointer;
+    width:80vw;
+    text-align:center;
+}
+.icons i {
+    cursor:pointer;
+}
+.songItem{
+    height:50px;
+    display:flex;
+    background-color: white;
+    width:80%;
+    color:black;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}.songItem img{
+    width:60px;
+    margin:0 23px;
+    border-radius: 30px;
+    cursor:pointer;
+
+}
+.timestamp{
+    margin:0 23px;
+
+}
+
+.timestamp i {
+    cursor:pointer;
+}
+.favorite-icon{
+    color:red;
+    font-size:24px; 
+    font-weight:400;cursor:pointer;
+   
+}
+
+.songitemcontainer{
+    margin-top:34px;
+}
